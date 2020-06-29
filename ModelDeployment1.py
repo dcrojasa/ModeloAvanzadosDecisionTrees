@@ -1,3 +1,9 @@
+import pandas as pd
+from sklearn.externals import joblib
+import sys
+import os
+
+
 def PredictPrice(Model, Make, Mileage, Year, State):
 
     #clf_VF = joblib.load(os.path.dirname(__file__) + '/price_forecast.pkl') 
