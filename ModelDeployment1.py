@@ -69,9 +69,7 @@ def PredictPrice(Model, Make, Mileage, Year, State):
 
         #DF = sys.argv[1]
         
-       
-p1 = PredictPrice(Model, Make, Mileage, Year, State)
-    
+
 print(DF)
 print('forecast of price: ', p1)
  
