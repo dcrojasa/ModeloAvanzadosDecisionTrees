@@ -70,6 +70,6 @@ def PredictPrice(Model, Make, Mileage, Year, State):
         #DF = sys.argv[1]
         
 
-print(DF)
-print('forecast of price: ', p1)
+#print(DF)
+#print('forecast of price: ', p1)
  
