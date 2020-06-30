@@ -6,7 +6,7 @@ import os
 
 def PredictPrice(Model, Make, Mileage, Year, State):
 
-    #clf_VF = joblib.load(os.path.dirname(__file__) + '/price_forecast.pkl') 
+    clf_VF = joblib.load(os.path.dirname(__file__) + '/price_forecast.pkl') 
     
    
     d = {'Model':[Model], 'Make': [Make], 'Mileage': [Mileage], 'Year': [Year], 'State': [State]}
