@@ -77,7 +77,7 @@ class PredictingPrice(Resource):
         State = args['State']
         
         #DF = DF.split('%3B')
-        print(DF)
+        #print(DF)
         
         return {
          "result": PredictPrice(Model, Make, Mileage, Year, State)
