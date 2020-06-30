@@ -8,7 +8,7 @@ Created on Mon Jun 29 18:38:25 2020
 from flask import Flask
 from flask_restx import Api, Resource, fields
 from sklearn.externals import joblib
-
+from ModelDeployment1 import PredictPrice
 app = Flask(__name__)
 
 api = Api(
